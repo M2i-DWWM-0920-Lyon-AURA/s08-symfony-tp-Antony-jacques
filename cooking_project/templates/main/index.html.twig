@@ -9,6 +9,16 @@
 </style>
 
 <div class="example-wrapper">
+
+    {% for meal in meallist %}
+        <article>
+            <h2>{{meal.name}}</h2>
+
+            <img src="{{ meal.image }}" alt="plat">
+
+        </article>
+    {% endfor %}
+
     coucou
     <h1>Hello {{ controller_name }}! ✅</h1>
 

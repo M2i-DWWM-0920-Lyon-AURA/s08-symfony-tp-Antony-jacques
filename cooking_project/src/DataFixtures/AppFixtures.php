@@ -33,62 +33,62 @@ class AppFixtures extends Fixture
         $instruction = new Instruction();
         $instruction->setDescription($json_data['meals'][0]['strInstructions']);
         $instruction->setInstructionRank(1);
-        $instruction->setMealId(1);
+        $instruction->setMealId(6);
 
         $instruction2 = new Instruction();
         $instruction2->setDescription('Faire cuire le pommes. Mettre les pommes sur la pate. Faire cuire 20min');
         $instruction2->setInstructionRank(1);
-        $instruction2->setMealId(2);
+        $instruction2->setMealId(7);
 
         $ingredient1 = new Ingredient;
         $ingredient1->setName($json_data['meals'][0]['strIngredient1']);
         $ingredient1->setMeasure($json_data['meals'][0]['strMeasure1']);
-        $ingredient1->setMealId(1);
+        $ingredient1->setMealId(6);
         $ingredient2 = new Ingredient;
         $ingredient2->setName($json_data['meals'][0]['strIngredient2']);
         $ingredient2->setMeasure($json_data['meals'][0]['strMeasure2']);
-        $ingredient2->setMealId(1);
+        $ingredient2->setMealId(6);
         $ingredient3 = new Ingredient;
         $ingredient3->setName($json_data['meals'][0]['strIngredient3']);
         $ingredient3->setMeasure($json_data['meals'][0]['strMeasure3']);
-        $ingredient3->setMealId(1);
+        $ingredient3->setMealId(6);
         $ingredient4 = new Ingredient;
         $ingredient4->setName($json_data['meals'][0]['strIngredient9']);
         $ingredient4->setMeasure($json_data['meals'][0]['strMeasure9']);
-        $ingredient4->setMealId(1);
+        $ingredient4->setMealId(6);
         $ingredient5 = new Ingredient;
         $ingredient5->setName($json_data['meals'][0]['strIngredient4']);
         $ingredient5->setMeasure($json_data['meals'][0]['strMeasure4']);
-        $ingredient5->setMealId(1);
+        $ingredient5->setMealId(6);
         $ingredient6 = new Ingredient;
         $ingredient6->setName($json_data['meals'][0]['strIngredient5']);
         $ingredient6->setMeasure($json_data['meals'][0]['strMeasure5']);
-        $ingredient6->setMealId(1);
+        $ingredient6->setMealId(6);
         $ingredient7 = new Ingredient;
         $ingredient7->setName($json_data['meals'][0]['strIngredient6']);
         $ingredient7->setMeasure($json_data['meals'][0]['strMeasure6']);
-        $ingredient7->setMealId(1);
+        $ingredient7->setMealId(6);
         $ingredient8 = new Ingredient;
         $ingredient8->setName($json_data['meals'][0]['strIngredient7']);
         $ingredient8->setMeasure($json_data['meals'][0]['strMeasure7']);
-        $ingredient8->setMealId(1);
+        $ingredient8->setMealId(6);
         $ingredient9 = new Ingredient;
         $ingredient9->setName($json_data['meals'][0]['strIngredient8']);
         $ingredient9->setMeasure($json_data['meals'][0]['strMeasure8']);
-        $ingredient9->setMealId(1);
+        $ingredient9->setMealId(6);
 
         $ingredient10 = new Ingredient;
         $ingredient10->setName('Pommes');
         $ingredient10->setMeasure('4');
-        $ingredient10->setMealId(2);
+        $ingredient10->setMealId(7);
         $ingredient11 = new Ingredient;
         $ingredient11->setName("Pate");
         $ingredient11->setMeasure(1);
-        $ingredient11->setMealId(2);        
+        $ingredient11->setMealId(7);        
         $ingredient12 = new Ingredient;
         $ingredient12->setName('sucre');
         $ingredient12->setMeasure('3 cuillères à café');
-        $ingredient12->setMealId(2);
+        $ingredient12->setMealId(7);
 
 
 

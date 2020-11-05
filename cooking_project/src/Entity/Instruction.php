@@ -23,7 +23,8 @@ class Instruction
     private $meal_id;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=1000)
+     * 
      */
     private $description;
 

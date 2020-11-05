@@ -27,6 +27,11 @@ class Ingredient
      */
     private $measure;
 
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $meal_id;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -52,6 +57,18 @@ class Ingredient
     public function setMeasure(string $measure): self
     {
         $this->measure = $measure;
+
+        return $this;
+    }
+
+    public function getMealId(): ?int
+    {
+        return $this->meal_id;
+    }
+
+    public function setMealId(int $meal_id): self
+    {
+        $this->meal_id = $meal_id;
 
         return $this;
     }
